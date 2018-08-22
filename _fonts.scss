@@ -1,0 +1,29 @@
+///
+///
+/// Fonts import file
+///
+///
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url($fonts-path + 'ibmplexsans-bold.woff2') format('woff2'),
+         url($fonts-path + 'ibmplexsans-bold.woff') format('woff');
+    font-weight: $fw-bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url($fonts-path + 'ibmplexsans-medium.woff2') format('woff2'),
+         url($fonts-path + 'ibmplexsans-medium.woff') format('woff');
+    font-weight: $fw-medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url($fonts-path + 'ibmplexsans-regular.woff2') format('woff2'),
+         url($fonts-path + 'ibmplexsans-regular.woff') format('woff');
+    font-weight: $fw-normal;
+    font-style: normal;
+}

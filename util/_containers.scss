@@ -1,0 +1,38 @@
+//
+// Container placeholders
+//
+
+@mixin container($max-width: $container-width, $padding-x: $padding-x, $padding-y: 0) {
+  margin: 0 auto;
+  max-width: $max-width;
+  overflow: auto;
+  padding: $padding-y $padding-x;
+  position: relative;
+  width: 100%;
+}
+
+@mixin fullscreen {
+  height: 100%;
+  width: 100%;
+}
+
+@mixin pos-a($t: 0, $l: 0, $r: 0, $b: 0) {
+  bottom: $t;
+  left: $t;
+  position: absolute;
+  right: $t;
+  top: $t;
+}
+
+@mixin absolute {
+  @include pos-a;
+}
+
+%container {
+  @include container;
+}
+
+%container-narrow,
+%narrow-container {
+  @include container($container-narrow-width);
+}
