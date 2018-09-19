@@ -8,7 +8,7 @@ a {
   &[href*="www."],
   &[href$="http://"],
   &[href$="https://"] {
-    &:not([href=$domain]) {
+    &:not([href="#{$domain}"]) {
 
     }
   }
