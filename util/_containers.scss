@@ -16,16 +16,16 @@
   width: 100%;
 }
 
-@mixin pos-a($t: 0, $l: 0, $r: 0, $b: 0) {
-  bottom: $t;
-  left: $t;
+@mixin pos-a($t: auto, $l: auto, $r: auto, $b: auto) {
+  bottom: $b;
+  left: $l;
   position: absolute;
-  right: $t;
+  right: $r;
   top: $t;
 }
 
 @mixin absolute {
-  @include pos-a;
+  @include pos-a(0,0,0,0);
 }
 
 @mixin section {
