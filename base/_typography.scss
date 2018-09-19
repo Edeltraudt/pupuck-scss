@@ -19,7 +19,7 @@ $fs-x-large:    2.5rem !default;
 $ff-system:     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !default;
 
 // Relative fonts
-$ff-default:    'IBM Plex Sans', $ff-system;
+$ff-default:    $ff-system;
 $ff-text:       $ff-default;
 $ff-display:    $ff-default !default;
 
