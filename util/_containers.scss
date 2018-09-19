@@ -28,6 +28,11 @@
   @include pos-a;
 }
 
+@mixin section {
+  padding-bottom: $padding-section;
+  padding-top: $padding-section;
+}
+
 %container {
   @include container;
 }
