@@ -5,7 +5,7 @@
 ///
 
 // Reset browser-specific styles
-@import "reset";
+@import "_reset";
 
 // Constants
 @import "base/_base";
@@ -14,7 +14,7 @@
 @import "util/_util";
 
 // Fonts imports
-@import "fonts";
+@import "_fonts";
 
 // Structural layout elements
 @import "layout/_layout";
