@@ -3,7 +3,7 @@
 // Mixins to correct browser quirks
 // Usage: browser(&) inside the selector, or enter selector by hand
 
-@mixin ie($selector: false) { // IE10+
+@mixin only-ie($selector: false) { // IE10+
   @if $selector == false {
     @warn 'No selector given for mixin `ie($selector)`.';
   } @else {
@@ -13,7 +13,7 @@
   }
 }
 
-@mixin edge($selector: false) { // Microsoft Edge
+@mixin only-edge($selector: false) { // Microsoft Edge
   @if $selector == false {
     @warn 'No selector given for mixin `edge($selector)`.';
   } @else {
@@ -23,7 +23,7 @@
   }
 }
 
-@mixin firefox($selector: false) { // FF6+
+@mixin only-firefox($selector: false) { // FF6+
   @if $selector == false {
     @warn 'No selector given for mixin `firefox($selector)`.'
   } @else {

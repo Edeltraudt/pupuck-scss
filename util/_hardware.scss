@@ -1,6 +1,4 @@
-//
-// Improve animation performance
-//
+// mixin to improve animation performance
 @mixin hardware($backface: true, $perspective: 1000) {
   @if $backface {
     backface-visibility: hidden;

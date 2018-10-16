@@ -1,3 +1,4 @@
+// helper mixin
 @mixin fp($property, $min, $max, $start: 320, $end: map-get($breakpoints, 'desktop'), $clip: true, $clipAtStart: true, $clipAtEnd: true) {
   $start: $start / ($start * 0 + 1);
   $end: $end / ($end * 0 + 1);

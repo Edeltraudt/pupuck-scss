@@ -1,4 +1,4 @@
-@mixin aspectRatio($ratio: 1) {
+@mixin aspect-ratio($ratio: 1) {
   &::after {
     content: '';
     display: table; // Firefox

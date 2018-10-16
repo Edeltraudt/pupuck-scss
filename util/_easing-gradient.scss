@@ -1,10 +1,8 @@
-/*
-A simple little SCSS mixin for creating scrim gradients
-Inspired by Andreas Larson - https://github.com/larsenwork
-https://css-tricks.com/easing-linear-gradients/
-*/
+// A simple little SCSS mixin for creating scrim gradients
+// Inspired by Andreas Larson - https://github.com/larsenwork
+// https://css-tricks.com/easing-linear-gradients/
 
-@mixin easingGradient($startColor: #000, $direction: to top) {
+@mixin easing-gradient($startColor: #000, $direction: to top) {
 
   $scrimCoordinates: (
     0: 1,
@@ -33,5 +31,4 @@ https://css-tricks.com/easing-linear-gradients/
   }
 
   background: linear-gradient($direction, $stops);
-
 }

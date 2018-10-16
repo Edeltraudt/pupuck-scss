@@ -1,17 +1,16 @@
 // __util.scss
 // Import file for utility
-//
 
 @import "_defs";
 
 @import "math";
 @import "rem-to-px";
 
-@import "aspectRatio";
+@import "aspect-ratio";
 @import "break";
-@import "browserhacks";
+@import "browser-hacks";
 @import "colors";
-@import "easingGradient";
+@import "easing-gradient";
 @import "elevate";
 @import "items-per-row";
 @import "loading";
@@ -25,5 +24,3 @@
 // Placeholders
 @import "icon-button";
 @import "fit-image";
-@import "ruler";
-@import "time";

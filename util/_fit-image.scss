@@ -1,8 +1,6 @@
-//
 // Mixin for creating covering images without using the
 // background-image property, while also maintaining the best possible
 // browser support
-//
 
 @mixin fit-image-container {
   align-items: center;

@@ -1,7 +1,5 @@
-///
-/// Mixin to handle margins, widths and responsive behavior of
-/// grid items.
-///
+// Mixin to handle margins, widths and responsive behavior of
+// grid items, designed for flex or floating items
 
 // Helper mixin that applies the styles
 @mixin calculated-width($n, $margin, $flex) {

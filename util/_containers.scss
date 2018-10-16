@@ -1,6 +1,4 @@
-//
-// Container placeholders
-//
+// Container placeholders and mixins for generating
 
 @mixin container($max-width: $container-width, $padding-x: $padding-x, $padding-y: 0) {
   margin: 0 auto;

@@ -1,7 +1,5 @@
-///
-/// Mixin to give the illusion of the item being elevated.
-/// Applies multiple box-shadows.
-///
+// Box-shadow mixin inspired by material design
+// Applies multiple box-shadows.
 
 @mixin elevate($level: 1, $color: #000, $opacity: false) {
   $offset-x-a: $level * 0;

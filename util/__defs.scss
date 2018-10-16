@@ -1,11 +1,11 @@
-/// __defs.scss
-/// Definition file
-///
-/// ==================================================================
-///
-/// Contains SCSS variables and helpers that would never change
-/// throughout projects and which serve mainly for loops and checks.
-///
+// __defs.scss
+// Definition file
+//
+// ==================================================================
+//
+// Contains SCSS variables and helpers that would never change
+// throughout projects and which serve mainly for loops and checks.
+//
 
 $sides-x: (
   'right':  'left',
@@ -29,27 +29,3 @@ $sides: map-merge($sides-x, $sides-y);
 
   @warn 'Invalid side `#{$of}`.'
 }
-//
-// Import file for utility
-//
-
-@import "math";
-@import "rem-to-px";
-
-@import "break";
-@import "colors";
-@import "elevate";
-@import "items-per-row";
-@import "loading";
-@import "triangle";
-
-@import "containers";
-@import "hardware";
-@import "fluid-property";
-@import "remove-text-gap";
-
-// Placeholders
-@import "icon-button";
-@import "fit-image";
-@import "ruler";
-@import "time";

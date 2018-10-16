@@ -1,15 +1,15 @@
+// color variables
+
 $color-base:        #FFFFFF;
-$color-light:       #F4F5FC;
-$color-soft:        #8693AB;
-$color-headlines:   #191923;
+$color-light:       #F2F2F2;
+$color-soft:        #AAAAAA;
 $color-text:        #555555;
+$color-headlines:   #333333;
 
-$color-primary:     #0652DD;
-$color-secondary:   #D980FA;
-$color-shadow:      #1E90FF;
+$color-primary:     dodgerblue;
+$color-secondary:   rebeccapurple;
 
-$color-error:       #CE4257;
-$color-success:     #2EC4B6;
-
-$color-loading:     lighten(mix(mix($color-soft, $color-light, 20%), $color-primary, 90%), 5%);
-$color-loading-l:   lighten($color-loading, 2.5%);
+$color-error:       brickred;
+$color-success:     mediumseagreen;
+$color-info:        dodgerblue;
+$color-warning:     gold;

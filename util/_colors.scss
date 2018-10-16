@@ -1,12 +1,8 @@
-///
 /// Color helpers
-///
 
 @import "math";
 
-//
 // calculate luminance of a color
-//
 @function colorLuminance($color) {
   $color-rgb: ('red': red($color), 'green': green($color), 'blue': blue($color));
 
@@ -28,10 +24,7 @@
   @return (map-get($color-rgb, 'red') * .2126) + (map-get($color-rgb, 'green') * .7152) + (map-get($color-rgb, 'blue') * .0722);
 }
 
-
-//
 // create the visually readable invert of a color
-//
 @function colorInvert($color) {
   @if colorLuminance($color) > 0.33 {
     @return saturate(darken($color, 40%), 10%);
